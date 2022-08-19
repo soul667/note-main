@@ -1,0 +1,118 @@
+% ctexart、ctexrep、ctexbook和ctexbeamer, 对应 LaTeX 的article、report、book和beamer
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage[a4paper,left=3cm,right=3cm,top=2.6cm,bottom=2.6cm]{geometry} % 设置页面尺寸
+\usepackage{fancyhdr} % 设置页眉页边页脚
+\usepackage{multicol} % 多栏排版
+\usepackage{xeCJK} % 中文支持
+\usepackage{ctex} % 中文支持
+\usepackage{footmisc} % 控制脚注格式，包括编号、字体、分隔线等
+\usepackage{titletoc} % 定制目录列表样式
+\usepackage{fontspec} % XeTeX下的字体选择宏包
+\usepackage{setspace} % 行距
+\usepackage{graphicx} % 插图
+\usepackage{pdfpages} % 引用pdf页面
+\usepackage{booktabs} % 三线表
+\usepackage{multirow} % 表格多行支持
+\usepackage{caption} % figure和table等中的说明文字
+\usepackage{tikz} % 绘图
+\usepackage{etoolbox} % 给宏包打补丁
+\usepackage{hyperref} % 超链接
+\usepackage{xcolor} % 颜色支持
+\usepackage{array} % 数学表格
+\usepackage{amsmath} % 数学公式
+\usepackage{amssymb} % 数学字体与符号
+\usepackage{amsthm} % 数学定理格式
+\usepackage{subfig} % 排版子图
+\usepackage{float} % 浮动体格式控制
+\usepackage{lmodern} % 一种字体支持
+\usepackage{listings} % 插入代码
+\usepackage{tcolorbox} % 好看的块环境
+\usepackage{pifont} % 字体支持
+\usepackage{perpage} %the perpage package
+\usepackage{mathdesign} % some math fonts
+\usepackage{ulem} %一些文字强调的宏包
+\usepackage{fancyvrb} % some fancy verbatim 
+\usepackage{enumitem} % 列表项目
+\usepackage{txfonts} % 一些字体
+%重置每页脚注序号
+\MakePerPage{footnote} %the perpage package command
+\renewcommand \thefootnote{\ding{\numexpr171+\value{footnote}}}
+\pagestyle{headings} 
+% 为tcolorbox导入三个程序包
+\tcbuselibrary{skins, breakable, theorems} 
+
+% 设置代码格式 - 关键字加粗, 其余为正常。非彩色
+\lstset{
+    aboveskip=5mm,
+    belowskip=5mm,
+    breaklines=true,
+    breakatwhitespace=true,
+    columns=flexible,
+    extendedchars=false,
+    showstringspaces=false,
+    numbers=none,
+    basicstyle={\small\ttfamily},
+    captionpos=t,
+    frame=tb,
+    tabsize=4
+}
+
+\lstdefinestyle{cpp} {
+  language=C++
+}
+
+\lstdefinestyle{c++} {
+  language=C++
+}
+
+\lstdefinestyle{python} {
+  language=python,
+  morekeywords={as}
+}
+
+% 西文字体格式
+\setromanfont{Times New Roman}
+
+% 为目录添加 PDF 链接
+\addtocontents{toc}{\protect\hypersetup{hidelinks}}
+
+% 设置「目录」二字格式
+\renewcommand{\contentsname}{
+  \fontsize{16pt}{\baselineskip}
+  \normalfont\heiti{目~~~~录}
+  \vspace{-8pt}
+}
+
+% 定理、定义、证明
+\newtheorem{theorem}{定理}[section]
+\newtheorem{definition}{定义}[section]
+\newtheorem{lemma}{引理}[section]
+\newtheorem{corollary}{推论}[section]
+\newtheorem{example}{例}
+\newtheorem{proposition}{命题}[section]
+
+\title{解析函数}
+\author{洛白}
+\date{\today}
+
+\begin{document}
+
+% 显示标题作者时间
+\maketitle
+\newpage
+
+% 调整目录行间距
+\renewcommand{\baselinestretch}{1.35}
+% 添加目录
+\tableofcontents
+\newpage
+
+% 正文 22 磅的行距
+\setlength{\parskip}{0em}
+\renewcommand{\baselinestretch}{1.53}
+\section{单值函数}
+一个复数集合中的复数只对应\textbf{一个}复数的函数，反之为\textbf{多值函数}
+\[f(z)=u(x,y)+v(x,y) \]
+$$f(z)=u(r,\theta)+v(r,\theta)$$
+\end{document}
