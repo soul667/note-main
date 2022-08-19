@@ -1,4 +1,0 @@
-\hypersetup {hidelinks}
-\contentsline {section}{\numberline {1}单值函数}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}极限}{1}{subsection.1.1}%
-\contentsfinish 
