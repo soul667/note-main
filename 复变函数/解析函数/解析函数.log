@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7.30) (preloaded format=xelatex 2022.8.11)  19 AUG 2022 16:50
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7.30) (preloaded format=xelatex 2022.8.11)  19 AUG 2022 21:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,37 +7,23 @@ entering extended mode
 (解析函数.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-15>
-(D:\SoftWare\miktex\1\tex/latex/base\article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(D:\SoftWare\miktex\1\tex/latex/base\size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(D:\SoftWare\miktex\1\tex/latex/ctex\ctexart.cls
+(D:\SoftWare\miktex\1\tex/latex/ctex/config\ctexbackend.cfg
+File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
 )
-\c@part=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
-\c@figure=\count187
-\c@table=\count188
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
-)
-(D:\SoftWare\miktex\1\tex/latex/ctex\ctex.sty
 (D:\SoftWare\miktex\1\tex/latex/l3kernel\expl3.sty
 Package: expl3 2022-07-15 L3 programming layer (loader) 
 
 (D:\SoftWare\miktex\1\tex/latex/l3backend\l3backend-xetex.def
 File: l3backend-xetex.def 2022-07-01 L3 backend support: XeTeX
-\g__graphics_track_int=\count189
+\g__graphics_track_int=\count181
 \l__pdf_internal_box=\box51
-\g__pdf_backend_object_int=\count190
-\g__pdf_backend_annotation_int=\count191
-\g__pdf_backend_link_int=\count192
+\g__pdf_backend_object_int=\count182
+\g__pdf_backend_annotation_int=\count183
+\g__pdf_backend_link_int=\count184
 ))
-Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
-
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+TEX)
 (D:\SoftWare\miktex\1\tex/latex/ctex\ctexhook.sty
 Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
 )
@@ -51,14 +37,31 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\l__ctex_tmp_int=\count193
+\l__ctex_tmp_int=\count185
 \l__ctex_tmp_box=\box52
-\l__ctex_tmp_dim=\dimen139
-\g__ctex_section_depth_int=\count194
-\g__ctex_font_size_int=\count195
+\l__ctex_tmp_dim=\dimen138
+\g__ctex_section_depth_int=\count186
+\g__ctex_font_size_int=\count187
 
 (D:\SoftWare\miktex\1\tex/latex/ctex/config\ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
+)
+(D:\SoftWare\miktex\1\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(D:\SoftWare\miktex\1\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
 )
 (D:\SoftWare\miktex\1\tex/latex/ctex/engine\ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
@@ -177,16 +180,15 @@ Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
 (D:\SoftWare\miktex\1\tex/latex/zhnumber\zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 ))
-(D:\SoftWare\miktex\1\tex/latex/ctex/scheme\ctex-scheme-chinese.def
-File: ctex-scheme-chinese.def 2022/07/14 v2.5.10 Chinese scheme for generic (CT
-EX)
+\l__ctex_heading_skip=\skip58
+
+(D:\SoftWare\miktex\1\tex/latex/ctex/scheme\ctex-scheme-chinese-article.def
+File: ctex-scheme-chinese-article.def 2022/07/14 v2.5.10 Chinese scheme for art
+icle (CTEX)
 
 (D:\SoftWare\miktex\1\tex/latex/ctex/config\ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
 ))
-(D:\SoftWare\miktex\1\tex/latex/tools\indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
 (D:\SoftWare\miktex\1\tex/latex/ctex\ctex-c5size.clo
 File: ctex-c5size.clo 2022/07/14 v2.5.10 c5size option (CTEX)
 )
@@ -257,19 +259,24 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 (D:\SoftWare\miktex\1\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip58
-\f@nch@O@elh=\skip59
-\f@nch@O@erh=\skip60
-\f@nch@O@olh=\skip61
-\f@nch@O@orh=\skip62
-\f@nch@O@elf=\skip63
-\f@nch@O@erf=\skip64
-\f@nch@O@olf=\skip65
-\f@nch@O@orf=\skip66
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
 )
 (D:\SoftWare\miktex\1\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@tracingmulticols=\count290
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+142.
+
 \mult@box=\box55
 \multicol@leftmargin=\dimen181
 \c@unbalance=\count291
@@ -281,8 +288,8 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \page@free=\dimen183
 \premulticols=\dimen184
 \postmulticols=\dimen185
-\multicolsep=\skip67
-\multicolbaselineskip=\skip68
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
 \partial@page=\box56
 \last@line=\box57
 \maxbalancingoverflow=\dimen186
@@ -336,6 +343,9 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \colbreak@box=\box99
 \mc@col@check@num=\count299
 )
+
+Package ctexhook Warning: Package `ctex' can not be loaded with `ctexart'.
+
 (D:\SoftWare\miktex\1\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
 \FN@temptoken=\toks18
@@ -389,12 +399,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count301
 \calc@Adimen=\dimen195
 \calc@Bdimen=\dimen196
-\calc@Askip=\skip69
-\calc@Bskip=\skip70
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count302
-\calc@Cskip=\skip71
+\calc@Cskip=\skip72
 )
 (D:\SoftWare\miktex\1\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
@@ -456,9 +466,9 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 )
 (D:\SoftWare\miktex\1\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip72
+\multirow@colwidth=\skip73
 \multirow@cntb=\count310
-\multirow@dima=\skip73
+\multirow@dima=\skip74
 \bigstrutjot=\dimen271
 )
 (D:\SoftWare\miktex\1\tex/latex/caption\caption.sty
@@ -869,7 +879,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip74
+\Hy@SectionHShift=\skip75
 )
 (D:\SoftWare\miktex\1\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
@@ -877,13 +887,13 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \ar@mcellbox=\box114
 \extrarowheight=\dimen335
 \NC@list=\toks33
-\extratabsurround=\skip75
-\backup@length=\skip76
+\extratabsurround=\skip76
+\backup@length=\skip77
 \ar@cellbox=\box115
 )
 (D:\SoftWare\miktex\1\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip77
+\@mathmargin=\skip78
 
 For additional information on amsmath, use the `?' option.
 (D:\SoftWare\miktex\1\tex/latex/amsmath\amstext.sty
@@ -943,8 +953,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen343
 \lineht@=\dimen344
 \@envbody=\toks37
-\multlinegap=\skip78
-\multlinetaggap=\skip79
+\multlinegap=\skip79
+\multlinetaggap=\skip80
 \mathdisplay@stack=\toks38
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -967,26 +977,26 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks41
 \thm@notefont=\toks42
 \thm@headpunct=\toks43
-\thm@preskip=\skip80
-\thm@postskip=\skip81
-\thm@headsep=\skip82
+\thm@preskip=\skip81
+\thm@postskip=\skip82
+\thm@headsep=\skip83
 \dth@everypar=\toks44
 )
 (D:\SoftWare\miktex\1\tex/latex/subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count361
-\sf@farskip=\skip83
+\sf@farskip=\skip84
 \sf@captopadj=\dimen345
-\sf@capskip=\skip84
-\sf@nearskip=\skip85
+\sf@capskip=\skip85
+\sf@nearskip=\skip86
 \c@subfigure=\count362
 \c@subfigure@save=\count363
 \c@lofdepth=\count364
 \c@subtable=\count365
 \c@subtable@save=\count366
 \c@lotdepth=\count367
-\sf@top=\skip86
-\sf@bottom=\skip87
+\sf@top=\skip87
+\sf@bottom=\skip88
 )
 (D:\SoftWare\miktex\1\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -1123,7 +1133,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (D:\SoftWare\miktex\1\tex/latex/ulem\ulem.sty
 \UL@box=\box130
 \UL@hyphenbox=\box131
-\UL@skip=\skip88
+\UL@skip=\skip89
 \UL@hook=\toks50
 \UL@height=\dimen350
 \UL@pe=\count383
@@ -1143,7 +1153,7 @@ Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
 )
 (D:\SoftWare\miktex\1\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip89
+\labelindent=\skip90
 \enit@outerparindent=\dimen353
 \enit@toks=\toks51
 \enit@inbox=\box134
@@ -1296,53 +1306,52 @@ text;"
 \c@corollary=\count393
 \c@example=\count394
 \c@proposition=\count395
-
-No file 解析函数.aux.
+ (解析函数.aux)
 \openout1 = `解析函数.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 99.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 98.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-99.
-(D:\SoftWare\miktex\1\tex/latex/txfonts\omltxmi.fd
+98.
+ (D:\SoftWare\miktex\1\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-99.
+98.
 
 (D:\SoftWare\miktex\1\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-99.
+98.
 
 (D:\SoftWare\miktex\1\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
-9.
+8.
 
 (D:\SoftWare\miktex\1\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1365,14 +1374,14 @@ LaTeX Font Info:    ... okay on input line 99.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -1393,46 +1402,42 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 99.
+Package hyperref Info: Link coloring OFF on input line 98.
+ (解析函数.out) (解析函数.out)
 \@outlinefile=\write5
 \openout5 = `解析函数.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 \c@lstlisting=\count396
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-03.
+02.
+
 (D:\SoftWare\miktex\1\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-03.
+02.
 
 (D:\SoftWare\miktex\1\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-03.
+02.
 
 (D:\SoftWare\miktex\1\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-03.
+02.
 
 (D:\SoftWare\miktex\1\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-03.
+02.
 
 (D:\SoftWare\miktex\1\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [1
-
-]
+)
 
 Package fontspec Info: Could not resolve font "SimHei/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1456,41 +1461,24 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 (fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
 (fontspec)             -  (m/fscn) with NFSS spec.: 
 
-
-No file 解析函数.toc.
+ (解析函数.toc)
 \tf@toc=\write6
 \openout6 = `解析函数.toc'.
 
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10.53937> no
-t available
-(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 109.
+ [1
 
-Overfull \vbox (0.25pt too high) has occurred while \output is active []
 
- [2]
-LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
-able
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-118.
-
-[3] (解析函数.aux)
-
-Package rerunfilecheck Warning: File `解析函数.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `解析函数.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4E10E4EF9A8826FA82359C64B154625C;75.
+] (解析函数.aux)
+Package rerunfilecheck Info: File `解析函数.out' has not changed.
+(rerunfilecheck)             Checksum: A6EB0A6BB5CB5E38E52BAD8CD3D3A120;148.
  ) 
 Here is how much of TeX's memory you used:
- 35867 strings out of 410653
- 748374 string characters out of 2821137
- 1099386 words of memory out of 3000000
- 56355 multiletter control sequences out of 15000+600000
+ 36519 strings out of 410653
+ 768672 string characters out of 2821137
+ 1116032 words of memory out of 3000000
+ 56999 multiletter control sequences out of 15000+600000
  495237 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,6n,97p,426b,413s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,8n,97p,1203b,421s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on 解析函数.pdf (3 pages).
+Output written on 解析函数.pdf (1 page).

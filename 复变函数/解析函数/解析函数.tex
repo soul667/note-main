@@ -1,6 +1,4 @@
-% ctexart、ctexrep、ctexbook和ctexbeamer, 对应 LaTeX 的article、report、book和beamer
-\documentclass{article}
-\usepackage[UTF8]{ctex}
+\documentclass[twocolumn]{ctexart}
 \usepackage[a4paper,left=3cm,right=3cm,top=2.6cm,bottom=2.6cm]{geometry} % 设置页面尺寸
 \usepackage{fancyhdr} % 设置页眉页边页脚
 \usepackage{multicol} % 多栏排版
@@ -112,7 +110,20 @@
 \setlength{\parskip}{0em}
 \renewcommand{\baselinestretch}{1.53}
 \section{单值函数}
-一个复数集合中的复数只对应\textbf{一个}复数的函数，反之为\textbf{多值函数}
-\[f(z)=u(x,y)+v(x,y) \]
-$$f(z)=u(r,\theta)+v(r,\theta)$$
+一个复数集合中的复数只对应一个复数的函数，反之为多值函数
+$$ \begin{aligned}
+ f(z)&=u(x,y)+i\cdot v(x,y)\\
+&=u(r,\theta)+i\cdot v(r,\theta)\\
+&=g(z,\overline{z})
+\end{aligned}$$
+$\hspace{0.6cm} $其中：
+$$\begin{aligned}
+x=\frac{z+\overline{z}}{2} \hspace{0.4cm} & y=\frac{z-\overline{z}}{2i} \\
+x=r\cos \theta
+\hspace{0.4cm}&  y=r\sin \theta
+\end{aligned}$$
+\subsection{极限}
+$\forall \varepsilon \hspace{0.1cm}   \exists \delta $使得$0<\left\vert z-z_0 \right\vert<\delta $时，有$\left\vert f(z)-w_0 \right\vert <\varepsilon $
 \end{document}
+
+
